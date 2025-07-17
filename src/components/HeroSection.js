@@ -109,8 +109,14 @@ const HeroSection = () => {
             </h4>
           </div>
           <p className="text-xl md:text-2xl text-gray-700 max-w-xl">
-            Today is all about you — your smile, your heart, your beauty, and
-            everything that makes you incredibly special. 💖
+            <p className="text-xl md:text-2xl text-gray-700 max-w-xl transition-opacity duration-1000">
+              Today is all about you — your smile, your heart, your beauty, and
+              everything that makes you incredibly special. 💖 <br />
+              I truly wish I could be there with you to celebrate this day by
+              your side. But even though I’m far away, my heart is right there
+              with you. 🎈 <br />I miss you more than words can say, and I hope
+              this small gesture brings a smile to your face. 💌
+            </p>
           </p>
           <button
             onClick={() => setShowCard(true)}
