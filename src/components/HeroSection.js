@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import amreenPhoto1 from "../images/amreenImage1.jpeg";
 import BirthdayCard from "./BirthdayPopCard/BirthdayCard";
 import together1 from "../images/imagetogether13.jpg";
+import Confetti from "react-confetti";
 
 const HeroSection = () => {
   const [showCard, setShowCard] = useState(false);
@@ -84,7 +85,7 @@ const HeroSection = () => {
 
       {/* Main Content */}
       <motion.div
-        className="z-10 flex flex-col md:flex-row items-center justify-center gap-10 text-center"
+        className="z-10 flex flex-col py-10 md:py-0 md:flex-row items-center justify-center gap-10 text-center"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.2 }}
@@ -142,13 +143,20 @@ const HeroSection = () => {
               <div className="absolute inset-0 bg-black/20 backdrop-blur-sm transition-opacity duration-300" />
               <div
                 ref={cardRef}
-                className="z-10 bg-white rounded-xl shadow-xl max-w-xl w-full p-6 transform transition-all duration-300 scale-100 opacity-100 animate-fadeIn"
+                className="z-10 bg-white rounded-xl shadow-xl w-auto md:max-w-xl w-full p-6 transform transition-all duration-300 scale-100 opacity-100 animate-fadeIn"
               >
+                <Confetti
+                  width={500} // set fixed width to fit the card size
+                  height={400} // adjust height to match your card height
+                  numberOfPieces={250}
+                  recycle={false}
+                  gravity={0.3}
+                />
                 <div className="flex justify-between items-center border-b gap-4 pb-2 mb-4">
                   <BirthdayCard />
                   <img
                     src={together1}
-                    className="h-[21rem] w-[16rem] object-cover rounded-[6px]"
+                    className="h-[21rem] w-[16rem] object-cover rounded-[6px] hidden  md:flex"
                   />
                 </div>
               </div>
