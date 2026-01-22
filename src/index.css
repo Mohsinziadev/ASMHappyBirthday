@@ -1,3 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+/* TTFirsNeue Font Family */
+@font-face {
+  font-family: 'TTFirsNeue';
+  src: url('./assets/fonts/TTFirsNeue-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TTFirsNeue';
+  src: url('./assets/fonts/TTFirsNeue-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TTFirsNeue';
+  src: url('./assets/fonts/TTFirsNeue-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TTFirsNeue';
+  src: url('./assets/fonts/TTFirsNeue-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --blush-pink: #FFE5E5;
+  --lavender: #E6D9EC;
+  --peach: #FFE4D6;
+  --cream: #FFF8F0;
+  --soft-pink: #FFB6C1;
+  --rose-gold: #E8B4B8;
+  --pastel-purple: #D4A5D9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'TTFirsNeue', sans-serif;
+  background: linear-gradient(135deg, #FFE5E5 0%, #E6D9EC 25%, #FFE4D6 50%, #FFF8F0 75%, #FFE5E5 100%);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  overflow-x: hidden;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Sparkle Animation */
+@keyframes sparkle {
+  0%, 100% {
+    opacity: 0;
+    transform: scale(0) rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1) rotate(180deg);
+  }
+}
+
+.sparkle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
+  animation: sparkle 2s infinite;
+}
+
+/* Floating Hearts */
+@keyframes floatHeart {
+  0% {
+    transform: translateY(100vh) translateX(0) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100vh) translateX(100px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.floating-heart {
+  position: fixed;
+  pointer-events: none;
+  z-index: 1;
+  animation: floatHeart 8s linear infinite;
+  filter: drop-shadow(0 0 8px rgba(255, 182, 193, 0.6));
+}
+
+/* Glassmorphism */
+.glass {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+}
+
+/* Glow Effect */
+.glow {
+  box-shadow: 0 0 20px rgba(255, 182, 193, 0.5),
+              0 0 40px rgba(255, 182, 193, 0.3),
+              0 0 60px rgba(255, 182, 193, 0.2);
+}
+
+/* Smooth Fade In */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 1s ease-out;
+}
+
+/* Parallax */
+.parallax {
+  will-change: transform;
+}
