@@ -119,9 +119,14 @@ const HiddenLoveLetter = () => {
 
                       {/* Letter Text */}
                       <div className="space-y-6 text-left overflow-y-auto pr-2" style={{ height: '20rem', maxHeight: '20rem' }}>
-                        <p className="font-script text-2xl text-gray-800">
-                          My Dearest Love,
-                        </p>
+                        <div className="flex justify-between items-start mb-2">
+                          <p className="font-script text-2xl text-gray-800">
+                            My Dearest Love,
+                          </p>
+                          <p className="font-body text-gray-500 text-xs">
+                            17 July
+                          </p>
+                        </div>
 
                         <div className="font-body text-gray-700 leading-relaxed space-y-4 text-lg">
                           <p>

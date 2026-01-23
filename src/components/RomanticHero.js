@@ -53,7 +53,7 @@ const RomanticHero = () => {
             className="inline-block glass rounded-full px-6 py-2 mb-4"
           >
             <p className="text-soft-pink text-sm font-medium" style={{ fontFamily: "'Poppins', sans-serif" }}>
-              Today • Your Special Day
+              17 July • Your Special Day
             </p>
           </motion.div>
 

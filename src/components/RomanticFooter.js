@@ -65,6 +65,9 @@ const RomanticFooter = () => {
           <p className="font-body text-soft-pink text-sm mt-8">
             Happy Birthday, My Beautiful Love ✨
           </p>
+          <p className="font-body text-gray-400 text-xs mt-2">
+            Forever celebrating 17 July 💖
+          </p>
         </motion.div>
       </div>
     </footer>
