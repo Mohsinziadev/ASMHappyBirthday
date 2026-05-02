@@ -30,10 +30,10 @@ const RomanticFooter = () => {
 
           {/* Message */}
           <p className="font-script text-3xl md:text-4xl text-gray-800 mb-4">
-            Made with love, just for you
+            Made with extra love for my besto
           </p>
           <p className="font-body text-gray-600 text-lg">
-            Every detail crafted with care, because you deserve nothing but the best.
+            Every pixel poked with care because my bestie deserves the bestest birthday ever, no competition.
           </p>
           <p className="font-body text-gray-500 text-sm mt-6">
             Made with love by Mohsin Zia
@@ -63,7 +63,7 @@ const RomanticFooter = () => {
 
           {/* Final Message */}
           <p className="font-body text-soft-pink text-sm mt-8">
-            Happy Birthday, My Beautiful Love ✨
+            Happy Birthday, besto / bestie / favorite human ✨
           </p>
           <p className="font-body text-gray-400 text-xs mt-2">
             Forever celebrating 17 July 💖

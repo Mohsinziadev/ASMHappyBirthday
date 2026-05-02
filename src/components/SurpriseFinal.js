@@ -58,10 +58,10 @@ const SurpriseFinal = () => {
             className="space-y-8"
           >
             <h2 className="font-display text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pastel-purple to-soft-pink mb-4">
-              One More Surprise...
+              Ok Ok One More Lil Surprise...
             </h2>
             <p className="text-xl text-gray-700 font-body max-w-2xl mx-auto mb-8">
-              Are you ready for something special?
+              Besto, are you ready? Big feelings incoming (the cute kind).
             </p>
             
             <motion.button
@@ -98,21 +98,21 @@ const SurpriseFinal = () => {
                   </motion.div>
 
                   <h3 className="font-display text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-soft-pink to-pastel-purple mb-6">
-                    I Love You More Than Words Can Say
+                    I Love You (Best-Friend-Plus-Lil-Heart Edition)
                   </h3>
 
                   <div className="font-body text-gray-700 text-lg md:text-xl leading-relaxed space-y-4">
                     <p>
-                      You are the most amazing person I've ever met, and I feel incredibly lucky to have you in my life.
+                      You’re my favorite person to text, to tease, to trust, and to dream beside. Hanging out with you is my happiest place—like a cozy blanket for my brain.
                     </p>
                     <p>
-                      On this special day, I want you to know that you deserve all the happiness, love, and beautiful moments that life has to offer.
+                      On your birthday I hope you feel super celebrated: cake, giggles, good luck, and all the squishy love you give everyone else bouncing right back to you.
                     </p>
                     <p className="font-script text-3xl text-soft-pink mt-8">
-                      Happy Birthday, My Beautiful Love
+                      Happy Birthday, my bestest besto
                     </p>
                     <p className="text-2xl mt-6">
-                      May all your dreams come true, today and always. ✨
+                      May your wishes come true today and always—yippee energy only. ✨
                     </p>
                   </div>
 
@@ -138,10 +138,10 @@ const SurpriseFinal = () => {
                 className="glass rounded-2xl p-8 max-w-2xl mx-auto"
               >
                 <p className="font-script text-2xl text-gray-800">
-                  "You are my today and all of my tomorrows."
+                  "Still wanna pick you first—bestie today, bestie tomorrow."
                 </p>
                 <p className="font-body text-soft-pink mt-4 text-lg">
-                  Forever and always, with love 💌
+                  Forever team us, with a lil extra love on top 💌
                 </p>
               </motion.div>
             </motion.div>

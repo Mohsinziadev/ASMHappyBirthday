@@ -5,33 +5,33 @@ const WhyYoureSpecial = () => {
   const reasons = [
     {
       icon: '💖',
-      title: 'Your Heart',
-      text: 'The way you love, with such depth and kindness, makes the world a brighter place.',
+      title: 'Your Big Soft Heart',
+      text: 'You care like it’s your superpower—kind, loyal, and so warm that everyone near you feels safer. (Also yes I’m biased because you’re my besto.)',
     },
     {
       icon: '✨',
-      title: 'Your Light',
-      text: 'You illuminate every room you enter, bringing joy and warmth to everyone around you.',
+      title: 'Your Main-Character Glow',
+      text: 'You walk in and the whole room gets brighter—like someone turned the happy dial up. Bestie energy: 1000%.',
     },
     {
       icon: '🌙',
-      title: 'Your Dreams',
-      text: 'Your aspirations inspire me, and watching you chase them fills me with pride.',
+      title: 'Your Dreamy Brain',
+      text: 'The way you want things for yourself makes me wanna clap like a seal. I’m so proud of you, for real for real.',
     },
     {
       icon: '🌸',
-      title: 'Your Beauty',
-      text: 'Not just on the outside, but the beautiful soul that shines through in everything you do.',
+      title: 'You’re Pretty + Precious',
+      text: 'Outside gorgeous, inside even cuter—that combo should be illegal. My eyes are lucky they get to look at my bestie.',
     },
     {
       icon: '💫',
-      title: 'Your Laugh',
-      text: 'The sound of your laughter is my favorite melody, a symphony of pure happiness.',
+      title: 'Your Giggle Factory',
+      text: 'Your laugh is my favorite sound in the whole wide world. Instant serotonin. Certified silliest goose award goes to you.',
     },
     {
       icon: '🌺',
-      title: 'Your Strength',
-      text: 'Your resilience and grace in facing life\'s challenges inspire me every single day.',
+      title: 'Your Brave Lil Self',
+      text: 'Life throws stuff and you still show up soft but strong. That’s my bestest friend—tiny but mighty.',
     },
   ];
 
@@ -72,10 +72,10 @@ const WhyYoureSpecial = () => {
           className="text-center mb-16"
         >
           <h2 className="font-display text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-soft-pink to-pastel-purple mb-4">
-            Why You're Special
+            Why My Besto Is The Bestest
           </h2>
           <p className="text-xl text-gray-700 font-body max-w-2xl mx-auto">
-            In a world full of ordinary, you are extraordinary in every way.
+            Everyone’s cool, but you’re my favorite flavor of human—best friend first, lil crushy feelings included, obvi.
           </p>
         </motion.div>
 
@@ -121,14 +121,14 @@ const WhyYoureSpecial = () => {
         >
           <div className="glass rounded-3xl p-10 max-w-3xl mx-auto">
             <p className="font-script text-3xl md:text-4xl text-gray-800 leading-relaxed mb-4">
-              "In your eyes, I found my home.
+              "You’re my home team, my cozy place,
               <br />
-              In your heart, I found my peace.
+              my partner in snacks and stupid jokes,
               <br />
-              In your smile, I found my joy."
+              and the lil spark that makes my heart go zoom."
             </p>
             <p className="text-soft-pink font-body text-lg font-medium">
-              — Forever Yours
+              — Your bestie, always (heart included)
             </p>
           </div>
         </motion.div>

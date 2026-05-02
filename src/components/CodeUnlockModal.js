@@ -18,7 +18,7 @@ const CodeUnlockModal = () => {
     setTimeout(() => {
       const success = unlockImages(code);
       if (!success) {
-        setError('Incorrect code. Please try again.');
+        setError('Nope nope—wrong code, try again bestie');
         setCode('');
       }
       setIsLoading(false);
@@ -57,10 +57,10 @@ const CodeUnlockModal = () => {
                 <FaLock className="text-6xl text-soft-pink mx-auto mb-4" />
               </motion.div>
               <h2 className="font-display text-3xl font-bold text-gray-800 mb-2">
-                Private Memories
+                Secret Besto Photo Vault
               </h2>
               <p className="text-gray-600 font-body">
-                Enter the special code to unlock the images
+                Shhh… type our lil code to unlock the pics (for your eyes only)
               </p>
             </div>
 
@@ -110,7 +110,7 @@ const CodeUnlockModal = () => {
                 ) : (
                   <>
                     <FaUnlock className="text-lg" />
-                    Unlock Images
+                    Open Sesame (Unlock Pics)
                   </>
                 )}
               </motion.button>
@@ -118,7 +118,7 @@ const CodeUnlockModal = () => {
 
             {/* Hint (optional - you can remove this) */}
             <p className="text-center text-gray-500 text-xs mt-4 font-body">
-              💡 Hint: It's something special between us
+              💡 Hint: something only besties would know hehe
             </p>
           </motion.div>
         </motion.div>

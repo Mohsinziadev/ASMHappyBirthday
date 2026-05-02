@@ -8,23 +8,23 @@ import ProtectedImage from './ProtectedImage';
 const MemoryTimeline = () => {
   const memories = [
     {
-      date: 'The Beginning',
-      title: 'When Our Story Started',
-      description: 'The moment I knew you were someone special. Every conversation felt like coming home.',
+      date: 'Chapter One (The Good Part)',
+      title: 'When I Knew You Were My Person',
+      description: 'We clicked like besties do—easy talks, big laughs, that “oh wait I really really like you” feeling hiding behind it all. Every chat felt like coming home.',
       image: together1,
       side: 'left',
     },
     {
-      date: 'Growing Together',
-      title: 'Building Our Dreams',
-      description: 'Watching our love grow stronger with each passing day, creating beautiful memories together.',
+      date: 'Bestie Level-Up',
+      title: 'More Inside Jokes, More Heart',
+      description: 'We kept collecting tiny adventures and big feelings. Best friends who also lowkey stole each other’s hearts—cutest plot twist ever.',
       image: together2,
       side: 'right',
     },
     {
-      date: 'Today & Forever',
-      title: 'Our Journey Continues',
-      description: 'Every day with you is a new adventure, and I can\'t wait to see what the future holds for us.',
+      date: 'Today & All The Tomorrows',
+      title: 'Still You + Still Me',
+      description: 'Every day with my besto is a new page—silly, sweet, sometimes chaotic, always ours. I can’t wait for more chapters.',
       image: together3,
       side: 'left',
     },
@@ -45,10 +45,10 @@ const MemoryTimeline = () => {
           className="text-center mb-20"
         >
           <h2 className="font-display text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pastel-purple to-soft-pink mb-4">
-            Our Love Journey
+            Me + You: The Bestie Timeline
           </h2>
           <p className="text-xl text-gray-700 font-body max-w-2xl mx-auto">
-            A timeline of moments that have shaped our beautiful story together.
+            A lil scrapbook of moments—friendship first, heart stuff happily included—because you’re my favorite story.
           </p>
         </motion.div>
 
@@ -113,9 +113,9 @@ const MemoryTimeline = () => {
         >
           <div className="glass rounded-3xl p-10 max-w-2xl mx-auto">
             <p className="font-script text-3xl md:text-4xl text-gray-800 leading-relaxed">
-              And this is just the beginning...
+              And we’re not even done yet, besto...
               <br />
-              <span className="text-soft-pink">Our story has many more chapters to write.</span>
+              <span className="text-soft-pink">Our story still has sooo many silly sparkly chapters to go.</span>
             </p>
           </div>
         </motion.div>

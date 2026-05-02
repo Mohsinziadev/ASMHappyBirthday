@@ -53,7 +53,7 @@ const RomanticHero = () => {
             className="inline-block glass rounded-full px-6 py-2 mb-4"
           >
             <p className="text-soft-pink text-sm font-medium" style={{ fontFamily: "'Poppins', sans-serif" }}>
-              17 July • Your Special Day
+              17 July • Besto Birthday Mode: ON
             </p>
           </motion.div>
 
@@ -66,7 +66,7 @@ const RomanticHero = () => {
           >
             Happy Birthday,
             <br />
-            <span className="font-script text-7xl md:text-9xl">My Love</span>
+            <span className="font-script text-7xl md:text-9xl">My Besto</span>
           </motion.h1>
 
           {/* Subheading */}
@@ -76,9 +76,9 @@ const RomanticHero = () => {
             transition={{ delay: 1, duration: 1 }}
             className="text-xl md:text-2xl text-gray-700 font-body font-light max-w-2xl mx-auto leading-relaxed"
           >
-            Today, the world celebrates you — the most beautiful soul I've ever known.
+            Today the whole world better be nice to my bestie—you’re the coolest, kindest, prettiest lil human I know.
             <br />
-            <span className="text-soft-pink font-medium">Every moment with you is a gift.</span>
+            <span className="text-soft-pink font-medium">Best friend first… and yeah, you’ve got my heart doing the happy wiggle too.</span>
           </motion.p>
 
           {/* Photo with Elegant Frame */}
@@ -96,7 +96,7 @@ const RomanticHero = () => {
               <div className="relative rounded-full overflow-hidden border-4 border-white shadow-2xl">
                 <ProtectedImage
                   src={amreenPhoto1}
-                  alt="Beautiful You"
+                  alt="My besto looking adorable"
                   className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full"
                 />
                 

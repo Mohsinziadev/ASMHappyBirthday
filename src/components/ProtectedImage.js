@@ -49,10 +49,10 @@ const ProtectedImage = ({ src, alt, className = '', onClick, ...props }) => {
                 <FaLock className="text-4xl text-white mx-auto" />
               </motion.div>
               <p className="text-white font-body font-semibold text-lg">
-                Enter code to unlock
+                Psst—secret code to unlock
               </p>
               <p className="text-white/80 font-body text-sm mt-1">
-                Click to enter code
+                Tap tap if u know it, besto
               </p>
             </div>
           </motion.div>

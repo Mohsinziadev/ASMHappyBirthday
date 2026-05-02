@@ -42,10 +42,10 @@ const HiddenLoveLetter = () => {
           className="mb-12"
         >
           <h2 className="font-display text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-rose-gold to-pastel-purple mb-4">
-            A Letter for You
+            A Letter for My Besto
           </h2>
           <p className="text-xl text-gray-700 font-body">
-            Click to open a special message from my heart
+            Pssst… tap to open a silly lil note from your bestie (ok fine, from my heart too)
           </p>
         </motion.div>
 
@@ -68,10 +68,10 @@ const HiddenLoveLetter = () => {
             >
               <FaHeart className="text-6xl text-soft-pink mx-auto mb-4" />
               <p className="font-script text-3xl text-gray-800 mb-2">
-                Open Me
+                Open meee
               </p>
               <p className="text-gray-600 font-body">
-                💌 A message from my heart
+                💌 For my bestest besto only
               </p>
             </motion.div>
           </div>
@@ -121,7 +121,7 @@ const HiddenLoveLetter = () => {
                       <div className="space-y-6 text-left overflow-y-auto pr-2" style={{ height: '20rem', maxHeight: '20rem' }}>
                         <div className="flex justify-between items-start mb-2">
                           <p className="font-script text-2xl text-gray-800">
-                            My Dearest Love,
+                            Hey my favorite human / besto,
                           </p>
                           <p className="font-body text-gray-500 text-xs">
                             17 July
@@ -130,31 +130,31 @@ const HiddenLoveLetter = () => {
 
                         <div className="font-body text-gray-700 leading-relaxed space-y-4 text-lg">
                           <p>
-                            As I sit here writing this, my heart is filled with so much love for you that words can barely capture it.
+                            Ok so I’m sitting here being a total softie and my brain is just going “yay besto day” on repeat. You’re my best friend first—like the real deal, ride-or-die, tell-you-everything, laugh-till-we-snort kind—and I’m so lucky I get you.
                           </p>
                           <p>
-                            On this special day, I want you to know how incredibly grateful I am to have you in my life. You are not just my girlfriend—you are my best friend, my confidant, my inspiration, and my greatest blessing.
+                            On your birthday I wanna say it super clearly: you’re my person. My bestie, my partner-in-crime, my lil comfort zone… and yeah, you’re also the one who makes my heart do the dumb happy dance. Best of both worlds, no cap.
                           </p>
                           <p>
-                            Every day with you feels like a gift. Your smile lights up my world, your laughter is my favorite sound, and your presence makes everything better. You have this amazing ability to make ordinary moments feel magical.
+                            Your smile is my favorite notification, your laugh is my favorite song, and hanging out with you turns boring Tuesdays into core memories. You make little moments feel sparkly and big.
                           </p>
                           <p>
-                            I love the way you care for others, the way you pursue your dreams with such passion, and the way you make me want to be a better person. You are beautiful inside and out, and I fall in love with you more every single day.
+                            I love how big your heart is, how brave you are when stuff gets hard, and how you dream out loud like the world better keep up. You’re beautiful inside and out, and I fall for you more in the tiniest everyday ways.
                           </p>
                           <p>
-                            Today, on your birthday, I wish for you all the happiness, love, and joy that you bring into my life. May all your dreams come true, and may this year be filled with beautiful moments and endless possibilities.
+                            Today I hope you get cake, surprises, good vibes, and every silly wish you make. May this year be full of wins, cozy days, and big giggles—you deserve the whole cutest package.
                           </p>
                           <p>
-                            Even though I may not be there physically, please know that my heart is with you, celebrating you, loving you, and wishing you the most wonderful birthday.
+                            If I can’t be right there in person, pretend I’m still beside you cheering like a lil goblin with a party hat on. My heart’s with you, celebrating my besto, loving you tons, and wishing you the happiest birthday ever.
                           </p>
                         </div>
 
                         <div className="mt-8 text-right">
                           <p className="font-script text-2xl text-soft-pink">
-                            Forever yours,
+                            Always your bestie,
                           </p>
                           <p className="font-body text-gray-600 mt-2">
-                            With all my love 💖
+                            With a big squishy lil bit of love too 💖
                           </p>
                           <p className="font-body text-gray-500 text-sm mt-4">
                             — Mohsin Zia
